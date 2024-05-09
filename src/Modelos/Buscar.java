@@ -9,8 +9,8 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class Buscar {
-    public Conversion busqueda(String moneda){
-        URI direccion= URI.create("https://v6.exchangerate-api.com/v6/37cbe968e805764e0f96e2c6/latest/"+moneda);
+    public Conversion busqueda(String original){
+        URI direccion= URI.create("https://v6.exchangerate-api.com/v6/37cbe968e805764e0f96e2c6/latest/"+original);
         HttpClient client = HttpClient.newHttpClient(); //somos el cliente
         HttpRequest request = HttpRequest.newBuilder() //que es lo que pedimos al servidor
                 .uri(direccion)
