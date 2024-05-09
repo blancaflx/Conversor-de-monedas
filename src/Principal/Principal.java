@@ -12,13 +12,13 @@ public class Principal {
     public static void main(String[] args) {
         Scanner ingresar = new Scanner(System.in);
         Buscar busqueda = new Buscar();
-        String monedaOriginal=" ";
-        String monedaCambio= " ";
-        String tipoDeCambio=" ";
+        String monedaOriginal="USD";
+        String monedaCambio= "USD";
+        String tipoDeCambio="USD A USD";
         boolean ciclo=true;
 
-        try {
-            while (ciclo){
+        while (ciclo){
+            try {
                 System.out.print("Bienvenido al Conversor de monedas"+'\n'+
                         "1) Dolar >>> Peso Argentino"+'\n'+
                         "2) Peso Argentino >>> Dolar"+'\n'+
@@ -65,6 +65,8 @@ public class Principal {
                     case 7:
                         ciclo=false;
                         break;
+                    default:
+                        System.out.println("Opcion no valida. Intente otra vez");
 
                 }
 
@@ -78,11 +80,13 @@ public class Principal {
                 }else {
                     System.out.println("GRACIAS POR USAR NUESTRO SISTEMA DE CONVERSION");
                 }
-
+            } catch (NumberFormatException e) {
+                System.out.println("Error: Por favor, ingrese un número entero válido."+'\n');
             }
-        } catch (NumberFormatException e) {
-            throw new RuntimeException(e);
+
         }
+        ingresar.close();
+
 
 
 
