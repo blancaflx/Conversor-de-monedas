@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb1bb9a1-42ea-41f8-ba8f-ce7c3cc02124" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Modelos/Buscar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modelos/Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principal/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conversor de monedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Conversor de monedas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelos/Buscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelos/Buscar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelos/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelos/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2g9UBsw0wlbbH0hPwvZKwsRwOVB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "pruebas",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/taffy/Documents/JAVA Colecciones de datos/2047-screenmatch4-Aula0",
+    "last_opened_file_path": "C:/Users/taffy/Documents/JAVA Colecciones de datos/DESAFIO/Conversor de monedas",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
